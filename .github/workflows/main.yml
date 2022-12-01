@@ -7,5 +7,5 @@ jobs:
       - name: printname
         run: echo "Hi, Iam Ajit"
       - name: final Message
-        run: "Last Message"
+        run: echo "Last Message"
        
