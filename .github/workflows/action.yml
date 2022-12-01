@@ -1,0 +1,9 @@
+name: Practise Github Action
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printname
+        run: echo "Hi, Iam Ajit"
+       
