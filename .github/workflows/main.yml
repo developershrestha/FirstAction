@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: printname
         run: echo "Hi, Iam Ajit"
+      - name: printaddress
+        run: echo "Fort worth"  
       - name: final Message
         run: echo "Last Message"
        
